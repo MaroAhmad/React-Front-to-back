@@ -1,25 +1,18 @@
-import React  from 'react';
+import React from "react";
 
-
-const Navbar =({icon,title}) => {
-
+const Navbar = ({ icon, title }) => {
   return (
-    <nav className="navbar bg-primary" >
-        <h1>
-        <i className= {icon}/> {title}
-        Github
-    </h1>
-
+    <nav className="navbar bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Github Finder</a>
+      </div>
     </nav>
-  
-  )  
-  };
-  
-  Navbar.defaultProps ={
-    title:'',
-    icon:'fab fa-github'
-  };
+  );
+};
 
+Navbar.defaultProps = {
+  title: "",
+  icon: "fab fa-github",
+};
 
-
-export default Navbar
+export default Navbar;
