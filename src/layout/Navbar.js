@@ -4,7 +4,9 @@ const Navbar = ({ icon, title }) => {
   return (
     <nav className="navbar bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand">Github Finder</a>
+        <a href="fab fa-github " class="navbar-brand">
+          Github Finder
+        </a>
       </div>
     </nav>
   );
